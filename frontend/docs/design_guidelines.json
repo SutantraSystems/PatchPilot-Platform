@@ -1,0 +1,64 @@
+{
+  "project_name": "Patch Pilot",
+  "app_type": "saas_app",
+  "theme": {
+    "mode": "dark",
+    "archetype": "Swiss & High-Contrast / Enterprise Clean",
+    "primary_deployment": "MSP Multi-tenant & DevOps / Cloud-Native Linux & Windows Fleets"
+  },
+  "typography": {
+    "headings": "Manrope, sans-serif",
+    "body": "Inter, sans-serif",
+    "mono": "JetBrains Mono, monospace"
+  },
+  "colors": {
+    "background": "#0B0F17",
+    "surface": "#131C2E",
+    "surface_elevated": "#1A2640",
+    "primary": "#2563EB",
+    "primary_hover": "#1D4ED8",
+    "accent_blue": "#0EA5E9",
+    "success": "#10B981",
+    "warning": "#F59E0B",
+    "danger": "#EF4444",
+    "text_primary": "#F8FAFC",
+    "text_secondary": "#94A3B8",
+    "border": "#1E293B"
+  },
+  "sidebar_structure": {
+    "Dashboard": ["Overview", "Global Fleet Health"],
+    "Systems": ["All Systems", "System Groups", "Unmanaged Systems", "Decommissioned Systems"],
+    "Patches": ["All Patches", "Security Patches", "Patch Bundles", "Approved Patches", "Exceptions"],
+    "Patch Jobs": ["Create Job", "Running", "Scheduled", "Completed", "Failed"],
+    "Policies & Maintenance": ["Calendar", "Maintenance Windows", "Blackout Periods", "Approvals"],
+    "Compliance & Reports": ["Overview", "SLA Compliance", "Non-Compliant Systems", "Exceptions"],
+    "Vulnerabilities & Repos": ["Repository List", "Sync Jobs", "Content Snapshots", "CVE Feed"],
+    "Automation": ["Templates", "Scripts", "Health Checks"],
+    "Admin & Logs": ["Audit Logs", "Alerts", "Users", "Roles", "Integrations", "Agent Management", "Settings"]
+  },
+  "key_functionalities": [
+    "Dashboard metrics with live patch deployment stats",
+    "Systems inventory management with multi-tenant filtering",
+    "Patches catalog & approval workflow with CVE vulnerability mapping",
+    "Patch Job creation & execution lifecycle (Running, Scheduled, Completed, Failed)",
+    "Maintenance windows scheduling & blackout periods calendar",
+    "Compliance scoring & SLA reports with non-compliant system drilldowns",
+    "Vulnerability scanner feeds and repository sync jobs",
+    "Automation scripts & templates library",
+    "Audit logs & real-time alerts",
+    "Administration, Role-based access control, and Agent management"
+  ],
+  "image_urls": {
+    "server_rack": "https://images.unsplash.com/photo-1695668548342-c0c1ad479aee?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA4Mzl8MHwxfHNlYXJjaHwyfHxlbnRlcnByaXNlJTIwc2VydmVycyUyMGRhdGElMjBjZW50ZXIlMjBjeWJlcnNlY3VyaXR5fGVufDB8fHx8MTc4NTkxMjQ2OXww&ixlib=rb-4.1.0&q=85",
+    "network_infrastructure": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA4Mzl8MHwxfHNlYXJjaHwxfHxlbnRlcnByaXNlJTIwc2VydmVycyUyMGRhdGElMjBjZW50ZXIlMjBjeWJlcnNlY3VyaXR5fGVufDB8fHx8MTc4NTkxMjQ2OXww&ixlib=rb-4.1.0&q=85",
+    "server_array": "https://images.unsplash.com/photo-1639066648921-82d4500abf1a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA4Mzl8MHwxfHNlYXJjaHwzfHxlbnRlcnByaXNlJTIwc2VydmVycyUyMGRhdGElMjBjZW50ZXIlMjBjeWJlcnNlY3VyaXR5fGVufDB8fHx8MTc4NTkxMjQ2OXww&ixlib=rb-4.1.0&q=85"
+  },
+  "universal_guidelines_for_main_agent": [
+    "Ensure all interactive elements have data-testid attributes.",
+    "Use clean slate grays (#0B0F17, #131C2E) with crisp blue accents (#2563EB).",
+    "Implement full collapsible sidebar matching the requested hierarchy.",
+    "Support full state management for creating patch jobs, approving patches, syncing repositories, and viewing compliance metrics.",
+    "Do not use transparent backgrounds for overlays, dropdowns, or sticky headers.",
+    "Use Lucide icons and Shadcn UI primitives for modals, tabs, dropdowns, and tables."
+  ]
+}
