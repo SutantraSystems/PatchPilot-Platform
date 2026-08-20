@@ -31,6 +31,7 @@ cd PatchPilot
 cd backend
 python -m venv .venv
 .\.venv\Scripts\Activate      # Windows (PowerShell)
+source .venv/Scripts/activate # Windows (Git Bash)
 # source .venv/bin/activate   # macOS/Linux
 
 python -m pip install -r requirements.txt
